@@ -29,11 +29,6 @@ import { EntryRegister } from "@/components/entry-register"
 import { UserNav } from "@/components/user-nav"
 import { Skeleton } from "@/components/ui/skeleton"
 
-export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Dashboard app"
-}
-
 type List = {
   Luces: string,
   "Nivel de Oscuridad": number,
